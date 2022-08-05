@@ -14,8 +14,8 @@ const Advice = () => {
                 (result) => {
                     setItem(result);
                 }
-            )
-    }
+            );
+    };
 
     useEffect(() => {
         getAdvice();
@@ -49,7 +49,7 @@ const Advice = () => {
                 </button>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Advice
+export default Advice;
